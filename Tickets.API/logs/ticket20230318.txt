@@ -1,0 +1,208 @@
+2023-03-18 11:50:34.564 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 11:51:49.622 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 11:51:49.957 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 11:51:50.036 +01:00 [DBG] DetectChanges starting for 'TicketContext'.
+2023-03-18 11:51:50.038 +01:00 [DBG] DetectChanges completed for 'TicketContext'.
+2023-03-18 11:51:50.094 +01:00 [DBG] 'TicketContext' disposed.
+2023-03-18 11:53:57.784 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 11:53:58.115 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 11:53:58.307 +01:00 [DBG] Migrating using database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.312 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.320 +01:00 [DBG] An error occurred using the connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.322 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.322 +01:00 [DBG] An error occurred using the connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.322 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.327 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.334 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 11:53:58.339 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (4ms).
+2023-03-18 11:53:58.345 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-03-18 11:53:58.362 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2023-03-18 11:53:58.363 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.365 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.419 +01:00 [DBG] DetectChanges starting for 'TicketContext'.
+2023-03-18 11:53:58.420 +01:00 [DBG] DetectChanges completed for 'TicketContext'.
+2023-03-18 11:53:58.440 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 11:53:58.440 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 11:53:58.440 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.440 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.440 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-03-18 11:53:58.444 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2023-03-18 11:53:58.444 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.445 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.446 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.446 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.451 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 11:53:58.451 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-18 11:53:58.451 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.451 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.451 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 11:53:58.453 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 11:53:58.453 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.453 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.454 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-18 11:53:58.454 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-18 11:53:58.454 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.454 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.454 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 11:53:58.455 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 11:53:58.456 +01:00 [DBG] A data reader was disposed.
+2023-03-18 11:53:58.456 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.528 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.536 +01:00 [INF] Applying migration '20230318105150_TicketDbInitialMigration'.
+2023-03-18 11:53:58.545 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.545 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.546 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-18 11:53:58.548 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-18 11:53:58.548 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 11:53:58.548 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 11:53:58.548 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Tickets" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Tickets" PRIMARY KEY AUTOINCREMENT,
+    "Email" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "PointOfInterestId" INTEGER NOT NULL
+);
+2023-03-18 11:53:58.549 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Tickets" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Tickets" PRIMARY KEY AUTOINCREMENT,
+    "Email" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "PointOfInterestId" INTEGER NOT NULL
+);
+2023-03-18 11:53:58.549 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 11:53:58.549 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 11:53:58.549 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318105150_TicketDbInitialMigration', '6.0.0');
+2023-03-18 11:53:58.549 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318105150_TicketDbInitialMigration', '6.0.0');
+2023-03-18 11:53:58.550 +01:00 [DBG] Committing transaction.
+2023-03-18 11:53:58.551 +01:00 [DBG] Committed transaction.
+2023-03-18 11:53:58.552 +01:00 [DBG] Disposing transaction.
+2023-03-18 11:53:58.552 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 11:53:58.552 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 11:53:58.553 +01:00 [DBG] 'TicketContext' disposed.
+2023-03-18 12:03:11.326 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 12:03:11.722 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 12:03:11.816 +01:00 [DBG] Context 'TicketContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.817 +01:00 [DBG] Context 'TicketContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.817 +01:00 [DBG] Context 'TicketContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.838 +01:00 [DBG] DetectChanges starting for 'TicketContext'.
+2023-03-18 12:03:11.840 +01:00 [DBG] DetectChanges completed for 'TicketContext'.
+2023-03-18 12:03:11.840 +01:00 [DBG] DetectChanges starting for 'TicketContext'.
+2023-03-18 12:03:11.845 +01:00 [DBG] DetectChanges completed for 'TicketContext'.
+2023-03-18 12:03:11.876 +01:00 [DBG] Context 'TicketContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.876 +01:00 [DBG] Context 'TicketContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.876 +01:00 [DBG] Context 'TicketContext' started tracking 'Ticket' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.882 +01:00 [DBG] An entity of type 'Ticket' tracked by 'TicketContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.886 +01:00 [DBG] An entity of type 'Ticket' tracked by 'TicketContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.886 +01:00 [DBG] An entity of type 'Ticket' tracked by 'TicketContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-03-18 12:03:11.886 +01:00 [DBG] DetectChanges starting for 'TicketContext'.
+2023-03-18 12:03:11.886 +01:00 [DBG] DetectChanges completed for 'TicketContext'.
+2023-03-18 12:03:11.889 +01:00 [DBG] DetectChanges starting for 'TicketContext'.
+2023-03-18 12:03:11.889 +01:00 [DBG] DetectChanges completed for 'TicketContext'.
+2023-03-18 12:03:11.943 +01:00 [DBG] 'TicketContext' disposed.
+2023-03-18 12:03:20.483 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-18 12:03:20.864 +01:00 [INF] Entity Framework Core 6.0.0 initialized 'TicketContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2023-03-18 12:03:20.899 +01:00 [DBG] Migrating using database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.903 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.912 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.922 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 12:03:20.928 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2023-03-18 12:03:20.930 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.932 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.938 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 12:03:20.952 +01:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 12:03:20.954 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.957 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.958 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.959 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.959 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2023-03-18 12:03:20.959 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2023-03-18 12:03:20.959 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.959 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.959 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 12:03:20.959 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2023-03-18 12:03:20.959 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.959 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.970 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-03-18 12:03:20.970 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-03-18 12:03:20.970 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.970 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.971 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 12:03:20.971 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-03-18 12:03:20.973 +01:00 [DBG] A data reader was disposed.
+2023-03-18 12:03:20.973 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:20.973 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:20.983 +01:00 [INF] Applying migration '20230318110311_TicketDataSeed'.
+2023-03-18 12:03:21.031 +01:00 [DBG] Opening connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:21.032 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:21.033 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-03-18 12:03:21.035 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2023-03-18 12:03:21.036 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 12:03:21.036 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 12:03:21.037 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tickets" ("Id", "Email", "Name", "PointOfInterestId")
+VALUES (1, 'a@a.com', 'Alex', 4);
+2023-03-18 12:03:21.037 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tickets" ("Id", "Email", "Name", "PointOfInterestId")
+VALUES (1, 'a@a.com', 'Alex', 4);
+2023-03-18 12:03:21.037 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 12:03:21.037 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 12:03:21.037 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tickets" ("Id", "Email", "Name", "PointOfInterestId")
+VALUES (2, 'b@b.com', 'Bob', 5);
+2023-03-18 12:03:21.038 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tickets" ("Id", "Email", "Name", "PointOfInterestId")
+VALUES (2, 'b@b.com', 'Bob', 5);
+2023-03-18 12:03:21.042 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 12:03:21.042 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 12:03:21.043 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tickets" ("Id", "Email", "Name", "PointOfInterestId")
+VALUES (3, 's@s.com', 'Sarah', 2);
+2023-03-18 12:03:21.043 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Tickets" ("Id", "Email", "Name", "PointOfInterestId")
+VALUES (3, 's@s.com', 'Sarah', 2);
+2023-03-18 12:03:21.043 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2023-03-18 12:03:21.043 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2023-03-18 12:03:21.043 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318110311_TicketDataSeed', '6.0.0');
+2023-03-18 12:03:21.043 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230318110311_TicketDataSeed', '6.0.0');
+2023-03-18 12:03:21.044 +01:00 [DBG] Committing transaction.
+2023-03-18 12:03:21.049 +01:00 [DBG] Committed transaction.
+2023-03-18 12:03:21.050 +01:00 [DBG] Disposing transaction.
+2023-03-18 12:03:21.050 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Aleksandar\demo\CityInfo\Tickets.API\Ticket.db'.
+2023-03-18 12:03:21.050 +01:00 [DBG] Closed connection to database 'main' on server 'Ticket.db'.
+2023-03-18 12:03:21.051 +01:00 [DBG] 'TicketContext' disposed.

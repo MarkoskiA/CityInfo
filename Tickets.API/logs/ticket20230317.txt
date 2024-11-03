@@ -1,0 +1,36 @@
+2023-03-17 20:41:06.427 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-17 20:41:06.523 +01:00 [DBG] Hosting starting
+2023-03-17 20:41:06.651 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 1C85E5F590EF96CCA5745C4C60AC850D1B5EF268)
+2023-03-17 20:41:06.683 +01:00 [INF] Now listening on: https://localhost:7183
+2023-03-17 20:41:06.684 +01:00 [INF] Now listening on: http://localhost:5183
+2023-03-17 20:41:06.685 +01:00 [DBG] Loaded hosting startup assembly Tickets.API
+2023-03-17 20:41:06.685 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-17 20:41:06.686 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-17 20:41:06.687 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-17 20:41:06.687 +01:00 [INF] Hosting environment: Development
+2023-03-17 20:41:06.688 +01:00 [INF] Content root path: C:\Aleksandar\demo\CityInfo\Tickets.API\
+2023-03-17 20:41:06.688 +01:00 [DBG] Hosting started
+2023-03-17 20:41:06.890 +01:00 [DBG] Connection id "0HMP73U6IKD41" accepted.
+2023-03-17 20:41:06.892 +01:00 [DBG] Connection id "0HMP73U6IKD41" started.
+2023-03-17 20:41:06.895 +01:00 [DBG] Connection id "0HMP73U6IKD42" accepted.
+2023-03-17 20:41:06.896 +01:00 [DBG] Connection id "0HMP73U6IKD42" started.
+2023-03-17 20:41:07.388 +01:00 [DBG] Connection id "0HMP73U6IKD43" accepted.
+2023-03-17 20:41:07.389 +01:00 [DBG] Connection id "0HMP73U6IKD43" started.
+2023-03-17 20:41:07.442 +01:00 [DBG] Connection 0HMP73U6IKD43 established using the following protocol: "Tls13"
+2023-03-17 20:41:07.512 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/index.html - -
+2023-03-17 20:41:07.561 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-17 20:41:07.655 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-17 20:41:07.797 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-17 20:41:07.802 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/index.html - - - 200 - text/html;charset=utf-8 293.6702ms
+2023-03-17 20:41:07.804 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - -
+2023-03-17 20:41:07.813 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 9.5714ms
+2023-03-17 20:41:07.944 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7183/_vs/browserLink - -
+2023-03-17 20:41:07.979 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7183/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.3192ms
+2023-03-17 20:41:08.024 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - -
+2023-03-17 20:41:08.123 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7183/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 99.3342ms
+2023-03-17 20:41:16.905 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-17 20:41:16.905 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-03-17 20:41:16.908 +01:00 [DBG] Connection id "0HMP73U6IKD41" stopped.
+2023-03-17 20:41:16.908 +01:00 [DBG] Connection id "0HMP73U6IKD42" stopped.
+2023-03-17 20:41:16.909 +01:00 [DBG] Connection id "0HMP73U6IKD42" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-17 20:41:16.909 +01:00 [DBG] Connection id "0HMP73U6IKD41" sending FIN because: "The Socket transport's send loop completed gracefully."
